@@ -23,8 +23,8 @@ const Upload = (props) => {
       <input {...getInputProps()} />
       {
         isDragActive ?
-          <p>Drop the files here ...</p> :
-          <p>Drag 'n' drop some files here, or click to select files</p>
+          <p className="text" >Drop the files here ...</p> :
+          <p className="text">Drag 'n' drop some files here, or click to select files</p>
       }
     </Wrapper>
   )
